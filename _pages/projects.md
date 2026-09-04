@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Projects"
+title: "Projects and Interns"
 permalink: /projects/
 author_profile: true
 ---
