@@ -30,11 +30,11 @@ My computational work connects mathematical modeling with practical data analysi
   </article>
 
   <article class="project-card">
-    <p class="project-year">2024</p>
-    <h2>Industrial Process Analysis</h2>
-    <p>Developed a data-driven workflow for discovering relationships, latent patterns, and trends in historical process data, with continuous incorporation of new data and validation feedback.</p>
-    <p class="project-stack">Python · Pandas · NumPy · Predictive modeling</p>
-  </article>
+  <p class="project-year">2024 · Internship</p>
+  <h2>Data Analyst Intern — Biomass Energy Systems Inc.</h2>
+  <p>Designed and developed a data-driven industrial process analysis system using Python, Pandas, and NumPy. Analyzed historical process data to identify relationships, latent patterns, and trends without relying on predefined formulas or engineering rules. Built a continuous-learning workflow that incorporated new data and validation feedback to improve analysis and prediction, while collaborating with remote and on-site engineering teams to interpret results.</p>
+  <p class="project-stack">Python · Pandas · NumPy · Data Analysis · Predictive Modeling</p>
+</article>
 </div>
 
 ## Research code
