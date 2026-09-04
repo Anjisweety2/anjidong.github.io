@@ -9,6 +9,14 @@ My computational work connects mathematical modeling with practical data analysi
 
 <div class="project-grid">
   <article class="project-card">
+    <p class="project-year">2024 · Internship</p>
+    <h2>Data Analyst Intern — Biomass Energy Systems Inc.</h2>
+    <p>Designed and developed a data-driven industrial process analysis system using Python, Pandas, and NumPy. Analyzed historical process data to identify relationships, latent patterns, and trends without relying on predefined formulas or engineering rules. Built a continuous-learning workflow that incorporated new data and validation feedback to improve analysis and prediction, while collaborating with remote and on-site engineering teams to interpret results.
+</p>
+    <p class="project-stack">Python · Pandas · NumPy · Data Analysis · Predictive Modeling</p>
+  </article>
+  
+  <article class="project-card">
     <p class="project-year">2024</p>
     <h2>Natural-Language Processing: Spoiler Detection</h2>
     <p>Built a text-classification pipeline using TF-IDF features and models including XGBoost. Compared vectorization strategies and classifiers using standard evaluation metrics.</p>
@@ -29,14 +37,9 @@ My computational work connects mathematical modeling with practical data analysi
     <p class="project-stack">Python · Numerical methods · Linear algebra · PCA</p>
   </article>
 
-  <article class="project-card">
-  <p class="project-year">2024 · Internship</p>
-  <h2>Data Analyst Intern — Biomass Energy Systems Inc.</h2>
-  <p>Designed and developed a data-driven industrial process analysis system using Python, Pandas, and NumPy. Analyzed historical process data to identify relationships, latent patterns, and trends without relying on predefined formulas or engineering rules. Built a continuous-learning workflow that incorporated new data and validation feedback to improve analysis and prediction, while collaborating with remote and on-site engineering teams to interpret results.</p>
-  <p class="project-stack">Python · Pandas · NumPy · Data Analysis · Predictive Modeling</p>
-</article>
+
 </div>
 
 ## Research code
 
-Code and supplementary material for Pollock's icosahedral and dodecahedral number conjectures are available in my [GitHub repository](https://github.com/Anjisweety2/Algorithm-for-Pollock-s-icosahedral-and-dodecahedral-numbers-conjectures).
+Code and supplementary materials for Pollock's icosahedral and dodecahedral number conjectures are available in my [GitHub repository](https://github.com/Anjisweety2/Algorithm-for-Pollock-s-icosahedral-and-dodecahedral-numbers-conjectures).
