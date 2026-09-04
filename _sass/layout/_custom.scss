@@ -1,0 +1,116 @@
+/* Site-specific refinements for Anji Dong's academic portfolio. */
+
+:root {
+  --anji-accent: #8a1538;
+  --anji-navy: #17324d;
+  --anji-surface: #f7f9fb;
+}
+
+html[data-theme="dark"] {
+  --anji-accent: #f08aa8;
+  --anji-navy: #d9e8f5;
+  --anji-surface: #30363d;
+}
+
+.masthead {
+  border-top: 4px solid var(--anji-accent);
+}
+
+.greedy-nav .visible-links a::before {
+  background: var(--anji-accent);
+}
+
+.page__content h1,
+.page__content h2,
+.archive__item-title {
+  color: var(--anji-navy);
+}
+
+.page__content h2 {
+  margin-top: 2rem;
+  border-bottom-color: color-mix(in srgb, var(--anji-accent) 45%, transparent);
+}
+
+.publication-list {
+  margin-left: 0;
+  padding-left: 1.35rem;
+}
+
+.publication-list li {
+  margin-bottom: 1.2rem;
+  padding-left: 0.4rem;
+  line-height: 1.55;
+}
+
+.pub-authors {
+  color: var(--global-text-color-light);
+}
+
+.pub-link {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08rem 0.45rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  padding: 1.2rem 1.25rem;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--anji-accent);
+  border-radius: 0.35rem;
+  background: var(--anji-surface);
+}
+
+.project-card h2 {
+  margin: 0.2rem 0 0.7rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.1rem;
+}
+
+.project-card p {
+  font-size: 0.92rem;
+}
+
+.project-year,
+.project-stack {
+  color: var(--global-text-color-light);
+  font-size: 0.78rem !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.pdf-frame {
+  overflow: hidden;
+  margin-top: 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.35rem;
+}
+
+.pdf-frame iframe {
+  display: block;
+  width: 100%;
+  height: 900px;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pdf-frame iframe {
+    height: 640px;
+  }
+}
