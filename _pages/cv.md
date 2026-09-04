@@ -9,56 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<p><a class="btn btn--primary" href="{{ base_path }}/files/Anji_Dong_CV.pdf">Download CV (PDF)</a></p>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Ph.D. in Mathematics**, University of Illinois Urbana-Champaign, 2022-present<br>
+Number Theory · Advisor: Alexandru Zaharescu · GPA: 3.97/4.0<br>
+Shaff-Andrews Fellowship and Wetzel Fellowship
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**B.A. in Mathematics and Data Science**, University of California, Berkeley, 2018-2021<br>
+GPA: 3.97/4.0 · Dorothea Klumpke Roberts Prize in Mathematics<br>
+Undergraduate thesis: *An Exposition of the Kronecker-Weber Theorem* · Advisor: Richard Borcherds
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Experience
+
+**Teaching Assistant**, University of Illinois Urbana-Champaign, 2022-present<br>
+**Data Analyst**, Biomass Energy Systems Inc., 2024<br>
+**Lecturer**, ARETEEM Institute, 2023
+
+## Technical skills
+
+Python (NumPy, Pandas, Matplotlib, scikit-learn), Java, SQL, LaTeX, R, MATLAB, Scheme, and HTML.
+
+<div class="pdf-frame">
+  <iframe src="{{ base_path }}/files/Anji_Dong_CV.pdf" title="Anji Dong CV"></iframe>
+</div>
