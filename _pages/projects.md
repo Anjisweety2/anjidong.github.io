@@ -25,7 +25,7 @@ My computational work connects mathematical modeling with practical data analysi
 
   <article class="project-card">
     <p class="project-year">2020</p>
-    <h2>Gitlet: Version-Control System</h2>
+    <h2><a href="https://github.com/Anjisweety2/Gitlet">Gitlet</a>: Version-Control System</h2>
     <p>Implemented a Git-like system supporting commits, branches, merges, checkout, persistent file storage, and version-history management.</p>
     <p class="project-stack">Java · Object-oriented design · Data structures</p>
   </article>
